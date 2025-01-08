@@ -71,12 +71,10 @@ const Signup = () => {
     }
 
     // Phone number validation regex
-    const phoneRegex = /^\+88\d{11}$/;
+    const phoneRegex = /^\d{3,16}$/;
 
     if (!e.target.phone.value.match(phoneRegex)) {
-      alert(
-        "Phone number must start with +88 and have a total length of 14 digits."
-      );
+      alert("Phone number must be between 3 and 16 digits.");
       return;
     }
 
