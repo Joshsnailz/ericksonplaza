@@ -4,29 +4,24 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
 export const metadata = {
-  metadataBase: new URL("https://canim-csr.vercel.app"),
-  title: "Canim - Shop & eCommerce React Template",
-  description:
-    "Buy Canim - Shop & eCommerce Next.Js Template by Hasibul Islam. Canim | Shop & eCommerce React Template - a responsive React template. Canim is built with the latest Next.Js 13 App Directory",
+  metadataBase: new URL("https://ericksonplaza.com"),
+  title: "EricksonPlaza - Online Store",
+  description: "Zimbabwe's greatest online store for all range of products",
   openGraph: {
-    title: "Canim - Shop & eCommerce React Template",
-    description:
-      "Buy Canim - Shop & eCommerce Next.Js Template by Hasibul Islam. Canim | Shop & eCommerce React Template - a responsive React template. Canim is built with the latest Next.Js 13 App Directory",
-    url: "https://canim-csr.vercel.app",
-    siteName: "Canim Template",
-    images:
-      "https://github.com/devhasibulislam/canim-ecommerce/blob/master/client/public/og.png?raw=true",
+    title: "EricksonPlaza - Online Store",
+    description: "BZimbabwe's greatest online store for all range of products",
+    url: "https://ericksonplaza.com",
+    siteName: "Erickon Plaza",
+    images: "https://ericksonplaza.com",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@devhasibulislam",
-    title: "Canim - Shop & eCommerce React Template",
-    description:
-      "Buy Canim - Shop & eCommerce Next.Js Template by Hasibul Islam. Canim | Shop & eCommerce React Template - a responsive React template. Canim is built with the latest Next.Js 13 App Directory",
-    image:
-      "https://github.com/devhasibulislam/canim-ecommerce/blob/master/client/public/og.png?raw=true",
+    site: "@404_y",
+    title: "Erickson Plaza",
+    description: "Zimbabwe's greatest online store for all range of products",
+    image: "https://ericksonplaza.com",
   },
 };
 

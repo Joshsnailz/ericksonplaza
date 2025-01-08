@@ -33,7 +33,7 @@ const Header = () => {
       <nav className="rounded-xl p-4 flex flex-row justify-between">
         <div className="flex flex-row gap-x-4 items-center relative">
           <Image
-            src="/logo.png"
+            src="/logo-dark.png"
             alt="logo"
             width={141}
             height={40}

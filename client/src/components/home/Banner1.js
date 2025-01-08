@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on Banner1
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 09, October 2023
- */
-
 import React from "react";
 import Image from "next/image";
 import { AiTwotoneFire } from "react-icons/ai";
@@ -38,17 +23,17 @@ const Banner1 = () => {
         <article className="flex flex-col justify-start items-end order-1 px-8">
           <div className="flex flex-col gap-y-4 max-w-lg z-20 mr-auto">
             <h1 className="md:text-6xl text-4xl">
-              Sports Equipment Collection.
+              Erickson Plaza - Home of all products
             </h1>
             <p className="flex flex-row gap-x-0.5 items-center text-lg text-black">
-              In this season, find your desire
+              All you want in one single place.
               <AiTwotoneFire className="text-[#ffa384] w-6 h-6 drop-shadow" />
             </p>
             <button
               className="px-8 py-4 border border-black rounded-secondary bg-black hover:bg-black/90 text-white transition-colors drop-shadow w-fit mt-4"
-              onClick={() => router.push("https://devhasibulislam.vercel.app/")}
+              onClick={() => router.push("/#")}
             >
-              Start Your Queries
+              Start shopping
             </button>
           </div>
         </article>

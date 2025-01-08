@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on Dashboard
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 09, November 2023
- */
-
 "use client";
 
 import React, { useState } from "react";
@@ -314,7 +299,7 @@ const Dashboard = ({ children }) => {
 
         <footer className="border px-4 py-2 rounded flex justify-center items-center flex-row">
           <p className="text-xs">
-            © {new Date().getFullYear()} Canim. All rights reserved.
+            © {new Date().getFullYear()} EricksonPlaza. All rights reserved.
           </p>
         </footer>
       </section>

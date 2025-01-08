@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on Footer
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 17, October 2023
- */
-
 "use client";
 
 import React from "react";
@@ -138,15 +123,11 @@ const Footer = () => {
       paths: [
         {
           name: "Facebook",
-          path: "https://www.facebook.com/devhasibulislam/",
+          path: "https://www.facebook.com/ericksonplaza",
         },
         {
           name: "LinkedIn",
-          path: "https://www.linkedin.com/in/devhasibulislam/",
-        },
-        {
-          name: "GitHub",
-          path: "https://github.com/devhasibulislam/",
+          path: "https://www.linkedin.com/in/ericksonplaza",
         },
       ],
     },
@@ -170,7 +151,9 @@ const Footer = () => {
           ))}
         </div>
         <hr />
-        <p className="text-center">&copy; {year} Canim. All rights reserved.</p>
+        <p className="text-center">
+          &copy; {year} EricksonPlaza. All rights reserved.
+        </p>
       </div>
     </footer>
   );

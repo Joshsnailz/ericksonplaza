@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on Trending
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 17, October 2023
- */
-
 "use client";
 
 import React, { useEffect, useMemo } from "react";
@@ -47,7 +32,7 @@ const Trending = () => {
             What&lsquo;s <span className="">Trending Now</span>
           </h1>
           <p className="text-base">
-            Discover the most trending products in Canim.
+            Discover the most trending products in Zimbabwe.
           </p>
         </div>
         <div className="flex flex-col gap-y-12">

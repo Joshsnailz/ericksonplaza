@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on Steps
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 09, October 2023
- */
-
 import Image from "next/image";
 import React from "react";
 import Container from "../shared/Container";
@@ -22,17 +7,17 @@ const Steps = () => {
     {
       badge: (
         <span className="inline-flex px-2.5 py-1 rounded-secondary text-xs text-red-800 bg-red-100 relative">
-          Step 1
+          Where to start?
         </span>
       ),
-      title: "Filter & Discover",
-      description: "Smart filtering and suggestions make it easy to find",
+      title: "Filter & Discover & Choose",
+      description: "Filter through products by category, brand or store",
       thumbnail: "/assets/home/steps/step-1.png",
     },
     {
       badge: (
         <span className="inline-flex px-2.5 py-1 rounded-secondary text-xs text-indigo-800 bg-indigo-100 relative">
-          Step 2
+          Choose purchases
         </span>
       ),
       title: "Add to bag",
@@ -42,7 +27,7 @@ const Steps = () => {
     {
       badge: (
         <span className="inline-flex px-2.5 py-1 rounded-secondary text-xs text-yellow-800 bg-yellow-100 relative">
-          Step 3
+          Choose delivery options
         </span>
       ),
       title: "Fast Shipping",
