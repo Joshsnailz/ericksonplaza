@@ -10,29 +10,9 @@ const error = require("./middleware/error.middleware");
 const app = express();
 
 /* middleware connections */
-const cors = require("cors");
-
-/* middleware connections */
-const cors = require("cors");
-
-/* middleware connections */
-const allowedOrigins = [
-  process.env.ORIGIN_URL_LOCALHOST,
-  process.env.ORIGIN_URL_PRODSERVER,
-];
-
 app.use(
   cors({
-    origin: (origin, callback) => {
-      // Allow requests with no origin (like mobile apps or curl requests)
-      if (!origin) return callback(null, true);
-
-      if (allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      } else {
-        return callback(new Error("Not allowed by CORS"));
-      }
-    },
+    origin: process.env.ORIGIN_URL_PRODSERVER,
     methods: "GET, PATCH, POST, DELETE",
     preflightContinue: false,
     optionsSuccessStatus: 204,
