@@ -44,7 +44,7 @@ const Signin = () => {
         <div className="flex flex-row items-center gap-x-2">
           <hr className="w-full" />
           <Image
-            src="/logo.png"
+            src="/logo-dark.png"
             alt="logo"
             width={141}
             height={40}
